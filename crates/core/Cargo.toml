@@ -29,7 +29,7 @@ tokio-rustls = { version = "0.23", default-features = false, features = ["tls12"
 tokio-util = { version = "0.7", features = ["io"] }
 wildmatch = "2.1"
 rustls = { version = "0.20", features = ["dangerous_configuration"] }
-rand = "0.8"
+rand = "0.10"
 
 [features]
 default = ["h2", "request-native-tls"]
